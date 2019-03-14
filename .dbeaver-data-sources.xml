@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data-sources>
-	<data-source id="sqlite_jdbc-1693b351cb9-2b116f8fdc2b13c3" provider="generic" driver="sqlite_jdbc" name="SQLite - spring-app.db" save-password="true" read-only="false">
+	<data-source id="sqlite_jdbc-169797e7ae5-75fe2779b56a9468" provider="generic" driver="sqlite_jdbc" name="SQLite - spring-app.db" save-password="true" read-only="false">
 		<connection server="" database="C:\Users\Joseph_C_Stewart\Desktop\spring-app\spring-app.db" url="jdbc:sqlite:C:\Users\Joseph_C_Stewart\Desktop\spring-app\spring-app.db" type="dev"/>
 	</data-source>
 	<filters/>

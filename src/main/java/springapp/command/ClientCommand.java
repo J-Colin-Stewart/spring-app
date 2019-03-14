@@ -12,7 +12,7 @@ public class ClientCommand {
 	private String name;
 	private String address;
 	private String phoneNumber;
-
+	private String email;
 	/**
 	 * Creates a command object that has the initial values the same as the client passed in
 	 * @param client the client to initialize the command object with
@@ -23,6 +23,7 @@ public class ClientCommand {
 			this.name = client.getName();
 			this.address = client.getAddress();
 			this.phoneNumber = client.getPhoneNumber();
+			this.email = client.getEmail();
 		}
 	}
 
@@ -57,6 +58,14 @@ public class ClientCommand {
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
+	
+	/**
+	 * Set the email address of the client
+	 * @param email the client email
+	 */
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
 	/**
 	 * @return the client id, returns null if this client is new and not persisted to the database yet
@@ -84,6 +93,13 @@ public class ClientCommand {
 	 */
 	public String getPhoneNumber() {
 		return phoneNumber;
+	}
+	
+	/**
+	 * @return the client email address
+	 */
+	public String getEmail() {
+		return email;
 	}
   
 }

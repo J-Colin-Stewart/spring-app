@@ -32,7 +32,7 @@ public class ClientDao {
 
 		@Override
 		public Client mapRow(ResultSet rs, int rowNum) throws SQLException {
-			return new Client(rs.getInt("id"), rs.getString("name"), rs.getString("phone_number"), rs.getString("address"));
+			return new Client(rs.getInt("id"), rs.getString("name"), rs.getString("phone_number"), rs.getString("address"), rs.getString("emai"));
 		}
 	};
 	
